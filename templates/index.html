@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bosh sahifa</title>
+</head>
+<body>
+{% for new in news %}
+<div>
+    <ul>
+        <h2>{{ new.title }}<br></h2>
+        {{ new.body }}<br>
+        {{ new.author }}<br>
+    </ul>
+</div>
+{% endfor %}
+
+</body>
+</html>
+
+
